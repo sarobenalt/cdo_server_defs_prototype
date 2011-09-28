@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_VFFIYOn0EeCWl88IjZmKog" type="EcoreTools" name="org.eclipse.emf.cdo.server.db.defs.ecorediag" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_VFpwIOn0EeCWl88IjZmKog" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_VFq-QOn0EeCWl88IjZmKog" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_VFrlUOn0EeCWl88IjZmKog" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_VFrlUen0EeCWl88IjZmKog"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_VFrlUun0EeCWl88IjZmKog"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_VFrlU-n0EeCWl88IjZmKog"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_VFsMYOn0EeCWl88IjZmKog" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_VFsMYen0EeCWl88IjZmKog"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_VFsMYun0EeCWl88IjZmKog"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_VFsMY-n0EeCWl88IjZmKog"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_VFqXMOn0EeCWl88IjZmKog" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="org.eclipse.emf.cdo.server.db.defs.ecore#//DBStoreDef"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VFqXMen0EeCWl88IjZmKog" y="238"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_VF6O0On0EeCWl88IjZmKog" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_VF7c8On0EeCWl88IjZmKog" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_VF7c8en0EeCWl88IjZmKog" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_VF8EBOn0EeCWl88IjZmKog" type="2001">
+        <element xmi:type="ecore:EAttribute" href="org.eclipse.emf.cdo.server.db.defs.ecore#//MappingStrategyDef/forceNamesWithID"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_VF8rEOn0EeCWl88IjZmKog"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_VF8rEen0EeCWl88IjZmKog" type="2001">
+        <element xmi:type="ecore:EAttribute" href="org.eclipse.emf.cdo.server.db.defs.ecore#//MappingStrategyDef/maxTableNameLength"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_VF8rEun0EeCWl88IjZmKog"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_VF8rE-n0EeCWl88IjZmKog" type="2001">
+        <element xmi:type="ecore:EAttribute" href="org.eclipse.emf.cdo.server.db.defs.ecore#//MappingStrategyDef/maxFieldNameLength"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_VF8rFOn0EeCWl88IjZmKog"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_VF9SIOn0EeCWl88IjZmKog" type="2001">
+        <element xmi:type="ecore:EAttribute" href="org.eclipse.emf.cdo.server.db.defs.ecore#//MappingStrategyDef/objectTypeCacheSize"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_VF9SIen0EeCWl88IjZmKog"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_VF9SIun0EeCWl88IjZmKog" type="2001">
+        <element xmi:type="ecore:EAttribute" href="org.eclipse.emf.cdo.server.db.defs.ecore#//MappingStrategyDef/qualifiedNames"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_VF9SI-n0EeCWl88IjZmKog"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_VF95MOn0EeCWl88IjZmKog" type="2001">
+        <element xmi:type="ecore:EAttribute" href="org.eclipse.emf.cdo.server.db.defs.ecore#//MappingStrategyDef/tableNamePrefix"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_VF95Men0EeCWl88IjZmKog"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_VF7c8un0EeCWl88IjZmKog"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_VF7c8-n0EeCWl88IjZmKog"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_VF7c9On0EeCWl88IjZmKog"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_VF8EAOn0EeCWl88IjZmKog" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_VF8EAen0EeCWl88IjZmKog"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_VF8EAun0EeCWl88IjZmKog"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_VF8EA-n0EeCWl88IjZmKog"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_VF6O0en0EeCWl88IjZmKog" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="org.eclipse.emf.cdo.server.db.defs.ecore#//MappingStrategyDef"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VF6O0un0EeCWl88IjZmKog" x="47"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_VF95Mun0EeCWl88IjZmKog" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_VF-gQOn0EeCWl88IjZmKog" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_VF-gQen0EeCWl88IjZmKog" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_VF_HUOn0EeCWl88IjZmKog" type="2001">
+        <element xmi:type="ecore:EAttribute" href="org.eclipse.emf.cdo.server.db.defs.ecore#//HorizontalMappingStrategyDef/auditing"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_VF_HUen0EeCWl88IjZmKog"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_VF_HUun0EeCWl88IjZmKog" type="2001">
+        <element xmi:type="ecore:EAttribute" href="org.eclipse.emf.cdo.server.db.defs.ecore#//HorizontalMappingStrategyDef/branching"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_VF_HU-n0EeCWl88IjZmKog"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_VF_HVOn0EeCWl88IjZmKog" type="2001">
+        <element xmi:type="ecore:EAttribute" href="org.eclipse.emf.cdo.server.db.defs.ecore#//HorizontalMappingStrategyDef/withRanges"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_VF_uYOn0EeCWl88IjZmKog"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_VF-gQun0EeCWl88IjZmKog"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_VF-gQ-n0EeCWl88IjZmKog"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_VF-gROn0EeCWl88IjZmKog"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_VF-gRen0EeCWl88IjZmKog" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_VF-gRun0EeCWl88IjZmKog"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_VF-gR-n0EeCWl88IjZmKog"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_VF-gSOn0EeCWl88IjZmKog"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_VF95M-n0EeCWl88IjZmKog" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="org.eclipse.emf.cdo.server.db.defs.ecore#//HorizontalMappingStrategyDef"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VF95NOn0EeCWl88IjZmKog" x="170" y="238"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_VFFIYen0EeCWl88IjZmKog"/>
+  <element xmi:type="ecore:EPackage" href="org.eclipse.emf.cdo.server.db.defs.ecore#/"/>
+  <edges xmi:type="notation:Edge" xmi:id="_VF_uYen0EeCWl88IjZmKog" type="3002" source="_VFpwIOn0EeCWl88IjZmKog" target="_VF6O0On0EeCWl88IjZmKog">
+    <children xmi:type="notation:Node" xmi:id="_VF_uZen0EeCWl88IjZmKog" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_VF_uZun0EeCWl88IjZmKog" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_VGAVcOn0EeCWl88IjZmKog" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_VGAVcen0EeCWl88IjZmKog" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_VF_uYun0EeCWl88IjZmKog" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_VF_uY-n0EeCWl88IjZmKog" fontColor="4210752" fontName="Segoe UI" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="org.eclipse.emf.cdo.server.db.defs.ecore#//DBStoreDef/mappingStrategy"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_VF_uZOn0EeCWl88IjZmKog" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VGdBYOn0EeCWl88IjZmKog" id="(0.5,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VGdBYen0EeCWl88IjZmKog" id="(0.03076923076923077,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_VGAVcun0EeCWl88IjZmKog" type="3003" source="_VF95Mun0EeCWl88IjZmKog" target="_VF6O0On0EeCWl88IjZmKog">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_VGAVc-n0EeCWl88IjZmKog" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_VGAVdOn0EeCWl88IjZmKog" fontName="Segoe UI"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_VGAVden0EeCWl88IjZmKog" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VGePgOn0EeCWl88IjZmKog" id="(0.5,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VGePgen0EeCWl88IjZmKog" id="(0.9692307692307692,1.0)"/>
+  </edges>
+</notation:Diagram>

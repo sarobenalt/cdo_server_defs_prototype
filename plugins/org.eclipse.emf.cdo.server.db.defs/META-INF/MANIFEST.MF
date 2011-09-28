@@ -1,20 +1,22 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: %pluginName
-Bundle-SymbolicName: org.eclipse.emf.cdo.server.defs;singleton:=true
+Bundle-SymbolicName: org.eclipse.emf.cdo.server.db.defs;singleton:=true
 Bundle-Version: 1.0.0.qualifier
 Bundle-ClassPath: .
 Bundle-Vendor: %providerName
 Bundle-Localization: plugin
 Bundle-RequiredExecutionEnvironment: J2SE-1.5
-Export-Package: org.eclipse.emf.cdo.server.defs,
- org.eclipse.emf.cdo.server.defs.impl,
- org.eclipse.emf.cdo.server.defs.provider,
- org.eclipse.emf.cdo.server.defs.util
+Export-Package: org.eclipse.emf.cdo.server.db.defs,
+ org.eclipse.emf.cdo.server.db.defs.impl,
+ org.eclipse.emf.cdo.server.db.defs.provider,
+ org.eclipse.emf.cdo.server.db.defs.util
 Require-Bundle: org.eclipse.core.runtime,
  org.eclipse.emf.ecore;visibility:=reexport,
+ org.eclipse.emf.cdo.server.defs;visibility:=reexport,
+ org.eclipse.net4j.db.defs;visibility:=reexport,
  org.eclipse.net4j.util.defs;visibility:=reexport,
  org.eclipse.net4j.defs;visibility:=reexport,
- org.eclipse.emf.edit;visibility:=reexport
+ org.eclipse.emf.cdo.server.db;bundle-version="4.1.0"
 Bundle-ActivationPolicy: lazy
 Bundle-Activator: org.eclipse.emf.cdo.server.defs.provider.CDOServerDefsEditPlugin$Implementation
