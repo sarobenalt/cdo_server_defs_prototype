@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_zKZWIOn0EeCWl88IjZmKog" type="EcoreTools" name="org.eclipse.emf.cdo.server.net4j.defs.ecorediag" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_zKcZcOn0EeCWl88IjZmKog" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_zKdAgOn0EeCWl88IjZmKog" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_zKdnkOn0EeCWl88IjZmKog" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_zKdnken0EeCWl88IjZmKog"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_zKdnkun0EeCWl88IjZmKog"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_zKdnk-n0EeCWl88IjZmKog"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_zKeOoOn0EeCWl88IjZmKog" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_zKeOoen0EeCWl88IjZmKog"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_zKeOoun0EeCWl88IjZmKog"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_zKeOo-n0EeCWl88IjZmKog"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_zKcZcen0EeCWl88IjZmKog" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="org.eclipse.emf.cdo.server.net4j.defs.ecore#//FailoverAgentDef"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zKcZcun0EeCWl88IjZmKog" x="7"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_zKn_oOn0EeCWl88IjZmKog" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_zKomsOn0EeCWl88IjZmKog" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_zKpNwOn0EeCWl88IjZmKog" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_zKqb4On0EeCWl88IjZmKog" type="2001">
+        <element xmi:type="ecore:EAttribute" href="org.eclipse.emf.cdo.server.net4j.defs.ecore#//FailoverMonitorDef/group"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_zKqb4en0EeCWl88IjZmKog"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_zKpNwen0EeCWl88IjZmKog"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_zKpNwun0EeCWl88IjZmKog"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_zKpNw-n0EeCWl88IjZmKog"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_zKp00On0EeCWl88IjZmKog" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_zKp00en0EeCWl88IjZmKog"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_zKp00un0EeCWl88IjZmKog"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_zKp00-n0EeCWl88IjZmKog"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_zKn_oen0EeCWl88IjZmKog" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="org.eclipse.emf.cdo.server.net4j.defs.ecore#//FailoverMonitorDef"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zKn_oun0EeCWl88IjZmKog" y="109"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_zKZWIen0EeCWl88IjZmKog"/>
+  <element xmi:type="ecore:EPackage" href="org.eclipse.emf.cdo.server.net4j.defs.ecore#/"/>
+  <edges xmi:type="notation:Edge" xmi:id="_zKrC8On0EeCWl88IjZmKog" type="3002" source="_zKn_oOn0EeCWl88IjZmKog" target="_zKcZcOn0EeCWl88IjZmKog">
+    <children xmi:type="notation:Node" xmi:id="_zKrqAOn0EeCWl88IjZmKog" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_zKsREOn0EeCWl88IjZmKog" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_zKsREen0EeCWl88IjZmKog" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_zKsREun0EeCWl88IjZmKog" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_zKrC8en0EeCWl88IjZmKog" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_zKrC8un0EeCWl88IjZmKog" fontColor="4210752" fontName="Segoe UI" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="org.eclipse.emf.cdo.server.net4j.defs.ecore#//FailoverMonitorDef/agents"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zKrC8-n0EeCWl88IjZmKog" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zLErkOn0EeCWl88IjZmKog" id="(0.49700598802395207,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zLFSoOn0EeCWl88IjZmKog" id="(0.5,1.0)"/>
+  </edges>
+</notation:Diagram>
