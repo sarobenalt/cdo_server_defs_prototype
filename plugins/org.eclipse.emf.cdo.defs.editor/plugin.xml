@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+  * Copyright (c) 2004 - 2011 Eike Stepper (Berlin, Germany) and others.
+  * All rights reserved. This program and the accompanying materials
+  * are made available under the terms of the Eclipse Public License v1.0
+  * which accompanies this distribution, and is available at
+  * http://www.eclipse.org/legal/epl-v10.html
+  * 
+  * Contributors:
+  *    Andre Dietisheim - initial API and implementation
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="org.eclipse.emf.cdo.defs.presentation.CDODefsModelWizardID"
+            name="%_UI_CDODefsModelWizard_label"
+            class="org.eclipse.emf.cdo.defs.presentation.CDODefsModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/CDODefsModelFile.gif">
+         <description>%_UI_CDODefsModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <editor
+            id="org.eclipse.emf.cdo.defs.presentation.CDODefsEditorID"
+            name="%_UI_CDODefsEditor_label"
+            icon="icons/full/obj16/CDODefsModelFile.gif"
+            extensions="cdodefs"
+            class="org.eclipse.emf.cdo.defs.presentation.CDODefsEditor"
+            contributorClass="org.eclipse.emf.cdo.defs.presentation.CDODefsActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>
