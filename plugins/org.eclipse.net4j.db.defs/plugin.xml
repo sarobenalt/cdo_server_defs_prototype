@@ -22,4 +22,16 @@
             genModel="model/org.eclipse.net4j.db.defs.genmodel"/>
    </extension>
 
+   <extension
+         point="org.eclipse.emf.edit.itemProviderAdapterFactories">
+      <factory
+            class="org.eclipse.net4j.db.defs.provider.Net4jDbDefsItemProviderAdapterFactory"
+            uri="http://www.eclipse.org/NET4J/db/defs/1.0.0"
+            supportedTypes=
+              "org.eclipse.emf.edit.provider.IEditingDomainItemProvider
+               org.eclipse.emf.edit.provider.IStructuredItemContentProvider
+               org.eclipse.emf.edit.provider.ITreeItemContentProvider
+               org.eclipse.emf.edit.provider.IItemLabelProvider
+               org.eclipse.emf.edit.provider.IItemPropertySource"/>
+   </extension>
 </plugin>

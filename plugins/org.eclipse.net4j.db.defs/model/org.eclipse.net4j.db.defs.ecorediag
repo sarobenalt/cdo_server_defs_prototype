@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_-xf_UOn4EeCWl88IjZmKog" type="EcoreTools" name="org.eclipse.net4j.db.defs.ecorediag" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_-yoAsOn4EeCWl88IjZmKog" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_-yonwOn4EeCWl88IjZmKog" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_-yonwen4EeCWl88IjZmKog" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_-yrrEOn4EeCWl88IjZmKog" type="2001">
+        <element xmi:type="ecore:EAttribute" href="org.eclipse.net4j.db.defs.ecore#//DBAdapterDef/type"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_-yrrEen4EeCWl88IjZmKog"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_-yonwun4EeCWl88IjZmKog"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_-yonw-n4EeCWl88IjZmKog"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_-yonxOn4EeCWl88IjZmKog"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_-yonxen4EeCWl88IjZmKog" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_-ypO0On4EeCWl88IjZmKog"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_-ypO0en4EeCWl88IjZmKog"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_-ypO0un4EeCWl88IjZmKog"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_-yoAsen4EeCWl88IjZmKog" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="org.eclipse.net4j.db.defs.ecore#//DBAdapterDef"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-yoAsun4EeCWl88IjZmKog" x="55"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_-ysSIOn4EeCWl88IjZmKog" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_-ys5MOn4EeCWl88IjZmKog" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_-ys5Men4EeCWl88IjZmKog" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_-ys5Mun4EeCWl88IjZmKog"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_-ys5M-n4EeCWl88IjZmKog"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_-ys5NOn4EeCWl88IjZmKog"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_-ys5Nen4EeCWl88IjZmKog" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_-ys5Nun4EeCWl88IjZmKog"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_-ys5N-n4EeCWl88IjZmKog"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_-ys5OOn4EeCWl88IjZmKog"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_-ysSIen4EeCWl88IjZmKog" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="org.eclipse.net4j.db.defs.ecore#//DBConnectionProviderDef"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-ysSIun4EeCWl88IjZmKog" y="169"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_-ytgQOn4EeCWl88IjZmKog" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_-yuHUOn4EeCWl88IjZmKog" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_-yuHUen4EeCWl88IjZmKog" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_-yuuYOn4EeCWl88IjZmKog" type="2001">
+        <element xmi:type="ecore:EAttribute" href="org.eclipse.net4j.db.defs.ecore#//DataSourceDef/class"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_-yuuYen4EeCWl88IjZmKog"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_-yuuYun4EeCWl88IjZmKog" type="2001">
+        <element xmi:type="ecore:EAttribute" href="org.eclipse.net4j.db.defs.ecore#//DataSourceDef/dbUsername"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_-yuuY-n4EeCWl88IjZmKog"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_-yvVcOn4EeCWl88IjZmKog" type="2001">
+        <element xmi:type="ecore:EAttribute" href="org.eclipse.net4j.db.defs.ecore#//DataSourceDef/dbPassword"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_-yvVcen4EeCWl88IjZmKog"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_-yuHUun4EeCWl88IjZmKog"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_-yuHU-n4EeCWl88IjZmKog"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_-yuHVOn4EeCWl88IjZmKog"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_-yuHVen4EeCWl88IjZmKog" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_-yuHVun4EeCWl88IjZmKog"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_-yuHV-n4EeCWl88IjZmKog"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_-yuHWOn4EeCWl88IjZmKog"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_-ytgQen4EeCWl88IjZmKog" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="org.eclipse.net4j.db.defs.ecore#//DataSourceDef"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-ytgQun4EeCWl88IjZmKog" x="304"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_-yvVcun4EeCWl88IjZmKog" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_-yv8gOn4EeCWl88IjZmKog" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_-yv8gen4EeCWl88IjZmKog" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_-ywjlOn4EeCWl88IjZmKog" type="2001">
+        <element xmi:type="ecore:EAttribute" href="org.eclipse.net4j.db.defs.ecore#//JNDIDataSourceDef/jndiName"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_-ywjlen4EeCWl88IjZmKog"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_-yxKoOn4EeCWl88IjZmKog" type="2001">
+        <element xmi:type="ecore:EAttribute" href="org.eclipse.net4j.db.defs.ecore#//JNDIDataSourceDef/jndiURL"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_-yxKoen4EeCWl88IjZmKog"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_-yxKoun4EeCWl88IjZmKog" type="2001">
+        <element xmi:type="ecore:EAttribute" href="org.eclipse.net4j.db.defs.ecore#//JNDIDataSourceDef/jndiContextFactory"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_-yxKo-n4EeCWl88IjZmKog"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_-yxxsOn4EeCWl88IjZmKog" type="2001">
+        <element xmi:type="ecore:EAttribute" href="org.eclipse.net4j.db.defs.ecore#//JNDIDataSourceDef/jndiUsername"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_-yxxsen4EeCWl88IjZmKog"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_-yxxsun4EeCWl88IjZmKog" type="2001">
+        <element xmi:type="ecore:EAttribute" href="org.eclipse.net4j.db.defs.ecore#//JNDIDataSourceDef/jndiPassword"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_-yxxs-n4EeCWl88IjZmKog"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_-yv8gun4EeCWl88IjZmKog"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_-yv8g-n4EeCWl88IjZmKog"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_-yv8hOn4EeCWl88IjZmKog"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_-ywjkOn4EeCWl88IjZmKog" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_-ywjken4EeCWl88IjZmKog"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_-ywjkun4EeCWl88IjZmKog"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_-ywjk-n4EeCWl88IjZmKog"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_-yvVc-n4EeCWl88IjZmKog" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="org.eclipse.net4j.db.defs.ecore#//JNDIDataSourceDef"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-yvVdOn4EeCWl88IjZmKog" x="281" y="169"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_-yyYwOn4EeCWl88IjZmKog" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_-yy_0On4EeCWl88IjZmKog" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_-yy_0en4EeCWl88IjZmKog" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_-yzm4On4EeCWl88IjZmKog" type="2001">
+        <element xmi:type="ecore:EAttribute" href="org.eclipse.net4j.db.defs.ecore#//URLDataSourceDef/dbUrl"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_-yzm4en4EeCWl88IjZmKog"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_-yy_0un4EeCWl88IjZmKog"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_-yy_0-n4EeCWl88IjZmKog"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_-yy_1On4EeCWl88IjZmKog"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_-yy_1en4EeCWl88IjZmKog" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_-yy_1un4EeCWl88IjZmKog"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_-yy_1-n4EeCWl88IjZmKog"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_-yy_2On4EeCWl88IjZmKog"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_-yyYwen4EeCWl88IjZmKog" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="org.eclipse.net4j.db.defs.ecore#//URLDataSourceDef"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-yyYwun4EeCWl88IjZmKog" x="584" y="169"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_-xf_Uen4EeCWl88IjZmKog"/>
+  <element xmi:type="ecore:EPackage" href="org.eclipse.net4j.db.defs.ecore#/"/>
+  <edges xmi:type="notation:Edge" xmi:id="_-y0N8On4EeCWl88IjZmKog" type="3002" source="_-ysSIOn4EeCWl88IjZmKog" target="_-ytgQOn4EeCWl88IjZmKog">
+    <children xmi:type="notation:Node" xmi:id="_-y0N9On4EeCWl88IjZmKog" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_-y0N9en4EeCWl88IjZmKog" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_-y01AOn4EeCWl88IjZmKog" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_-y01Aen4EeCWl88IjZmKog" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_-y0N8en4EeCWl88IjZmKog" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_-y0N8un4EeCWl88IjZmKog" fontColor="4210752" fontName="Segoe UI" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="org.eclipse.net4j.db.defs.ecore#//DBConnectionProviderDef/dataSource"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-y0N8-n4EeCWl88IjZmKog" points="[0, 0, -243, 60]$[243, -60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-zj00On4EeCWl88IjZmKog" id="(0.497737556561086,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-zj00en4EeCWl88IjZmKog" id="(0.24873096446700507,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_-y01Aun4EeCWl88IjZmKog" type="3003" source="_-yvVcun4EeCWl88IjZmKog" target="_-ytgQOn4EeCWl88IjZmKog">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_-y01A-n4EeCWl88IjZmKog" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_-y01BOn4EeCWl88IjZmKog" fontName="Segoe UI"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-y01Ben4EeCWl88IjZmKog" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-zimsOn4EeCWl88IjZmKog" id="(0.49794238683127573,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-zimsen4EeCWl88IjZmKog" id="(0.49746192893401014,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_-y1cEOn4EeCWl88IjZmKog" type="3003" source="_-yyYwOn4EeCWl88IjZmKog" target="_-ytgQOn4EeCWl88IjZmKog">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_-y1cEen4EeCWl88IjZmKog" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_-y1cEun4EeCWl88IjZmKog" fontName="Segoe UI"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-y1cE-n4EeCWl88IjZmKog" points="[0, 0, 216, 60]$[0, -30, 216, 30]$[-216, -30, 0, 30]$[-216, -60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-zjNwOn4EeCWl88IjZmKog" id="(0.5,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-zjNwen4EeCWl88IjZmKog" id="(0.7461928934010152,1.0)"/>
+  </edges>
+</notation:Diagram>

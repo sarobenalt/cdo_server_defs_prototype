@@ -14,6 +14,7 @@ package org.eclipse.net4j.db.defs.provider;
 import org.eclipse.emf.common.EMFPlugin;
 
 import org.eclipse.emf.common.util.ResourceLocator;
+import org.eclipse.net4j.util.defs.provider.Net4jUtilDefsEditPlugin;
 
 /**
  * This is the central singleton for the Org.eclipse.net4j.db edit plugin.
@@ -47,6 +48,7 @@ public final class Net4jDbEditPlugin extends EMFPlugin {
 	public Net4jDbEditPlugin() {
 		super
 		  (new ResourceLocator [] {
+		     Net4jUtilDefsEditPlugin.INSTANCE,
 		   });
 	}
 

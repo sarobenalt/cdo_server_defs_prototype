@@ -22,4 +22,22 @@
             genModel="model/org.eclipse.emf.cdo.server.db.defs.genmodel"/>
    </extension>
 
+   <extension
+         point="org.eclipse.emf.edit.itemProviderAdapterFactories">
+      <factory
+            class="org.eclipse.emf.cdo.server.db.defs.provider.CDOServerDbDefsItemProviderAdapterFactory"
+            uri="http://www.eclipse.org/emf/CDO/server/db/defs/1.0.0"
+            supportedTypes=
+              "org.eclipse.emf.edit.provider.IEditingDomainItemProvider
+               org.eclipse.emf.edit.provider.IStructuredItemContentProvider
+               org.eclipse.emf.edit.provider.ITreeItemContentProvider
+               org.eclipse.emf.edit.provider.IItemLabelProvider
+               org.eclipse.emf.edit.provider.IItemPropertySource"/>
+   </extension>
+   <extension
+         point="org.eclipse.emf.edit.childCreationExtenders">
+      <extender
+            class="org.eclipse.emf.cdo.server.db.defs.provider.CDOServerDbDefsItemProviderAdapterFactory$Net4jUtilDefsChildCreationExtender"
+            uri="http://www.eclipse.org/emf/CDO/server/db/defs/1.0.0"/>
+   </extension>
 </plugin>

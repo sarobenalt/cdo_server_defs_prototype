@@ -18,6 +18,8 @@ import org.eclipse.emf.common.EMFPlugin;
 import org.eclipse.emf.common.util.ResourceLocator;
 
 import org.eclipse.net4j.db.defs.provider.Net4jDbEditPlugin;
+import org.eclipse.net4j.defs.provider.Net4jDefsEditPlugin;
+import org.eclipse.net4j.util.defs.provider.Net4jUtilDefsEditPlugin;
 
 /**
  * This is the central singleton for the Org.eclipse.emf.cdo.server.db edit plugin.
@@ -50,7 +52,8 @@ public final class CDOServerDbEditDefsPlugin extends EMFPlugin {
 	 */
 	public CDOServerDbEditDefsPlugin() {
 		super(new ResourceLocator[] { CDOServerDefsEditPlugin.INSTANCE,
-				Net4jDbEditPlugin.INSTANCE, });
+				Net4jDbEditPlugin.INSTANCE, Net4jUtilDefsEditPlugin.INSTANCE,
+				Net4jDefsEditPlugin.INSTANCE, });
 	}
 
 	/**

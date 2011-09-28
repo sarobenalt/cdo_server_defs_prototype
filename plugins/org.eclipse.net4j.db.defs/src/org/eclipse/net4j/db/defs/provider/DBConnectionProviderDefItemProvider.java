@@ -30,6 +30,7 @@ import org.eclipse.emf.edit.provider.ITreeItemContentProvider;
 import org.eclipse.emf.edit.provider.ItemProviderAdapter;
 
 import org.eclipse.net4j.db.defs.Net4jDbDefsPackage;
+import org.eclipse.net4j.util.defs.provider.DefItemProvider;
 
 /**
  * This is the item provider adapter for a {@link org.eclipse.net4j.db.defs.DBConnectionProviderDef} object.
@@ -38,7 +39,7 @@ import org.eclipse.net4j.db.defs.Net4jDbDefsPackage;
  * @generated
  */
 public class DBConnectionProviderDefItemProvider
-	extends ItemProviderAdapter
+	extends DefItemProvider
 	implements
 		IEditingDomainItemProvider,
 		IStructuredItemContentProvider,

@@ -3,14 +3,14 @@
     xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
     xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" copyrightText=" * Copyright (c) 2004 - 2011 Eike Stepper (Berlin, Germany) and others.&#xD;&#xA; * All rights reserved. This program and the accompanying materials&#xD;&#xA; * are made available under the terms of the Eclipse Public License v1.0&#xD;&#xA; * which accompanies this distribution, and is available at&#xD;&#xA; * http://www.eclipse.org/legal/epl-v10.html&#xD;&#xA; * &#xD;&#xA; * Contributors:&#xD;&#xA; *    Andre Dietisheim - initial API and implementation&#xD;&#xA; *    Steve Robenalt - extended initial implementation for server side configuration."
     modelDirectory="/org.eclipse.net4j.db.defs/src" editDirectory="/org.eclipse.net4j.db.defs/src"
-    modelPluginID="org.eclipse.net4j.db.defs" modelName="Org.eclipse.net4j.db" editPluginClass="org.eclipse.net4j.db.defs.provider.Net4jDbEditPlugin"
-    editorPluginClass="org.eclipse.net4j.db.defs.presentation.Orgeclipsenet4jdbEditorPlugin"
+    editorDirectory="" modelPluginID="org.eclipse.net4j.db.defs" modelName="Org.eclipse.net4j.db"
+    editPluginClass="org.eclipse.net4j.db.defs.provider.Net4jDbEditPlugin" editorPluginClass="org.eclipse.net4j.db.defs.presentation.Orgeclipsenet4jdbEditorPlugin"
     testSuiteClass="org.eclipse.net4j.db.defs.tests.Net4jDbAllTests" importerID="org.eclipse.emf.importer.ecore"
     complianceLevel="5.0" copyrightFields="false" editPluginID="org.eclipse.net4j.db.defs"
     usedGenPackages="../../org.eclipse.net4j.util.defs/model/org.eclipse.net4j.util.defs.genmodel#//defs">
   <foreignModel>org.eclipse.net4j.db.defs.ecore</foreignModel>
   <genPackages prefix="Net4jDbDefs" basePackage="org.eclipse.net4j.db" disposableProviderFactory="true"
-      ecorePackage="org.eclipse.net4j.db.defs.ecore#/">
+      childCreationExtenders="true" ecorePackage="org.eclipse.net4j.db.defs.ecore#/">
     <genClasses ecoreClass="org.eclipse.net4j.db.defs.ecore#//DBAdapterDef">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute org.eclipse.net4j.db.defs.ecore#//DBAdapterDef/type"/>
     </genClasses>

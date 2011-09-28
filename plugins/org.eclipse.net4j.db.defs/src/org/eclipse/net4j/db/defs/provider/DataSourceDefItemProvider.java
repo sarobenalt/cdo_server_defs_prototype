@@ -33,6 +33,7 @@ import org.eclipse.emf.edit.provider.ViewerNotification;
 
 import org.eclipse.net4j.db.defs.DataSourceDef;
 import org.eclipse.net4j.db.defs.Net4jDbDefsPackage;
+import org.eclipse.net4j.util.defs.provider.DefItemProvider;
 
 /**
  * This is the item provider adapter for a {@link org.eclipse.net4j.db.defs.DataSourceDef} object.
@@ -41,7 +42,7 @@ import org.eclipse.net4j.db.defs.Net4jDbDefsPackage;
  * @generated
  */
 public class DataSourceDefItemProvider
-	extends ItemProviderAdapter
+	extends DefItemProvider
 	implements
 		IEditingDomainItemProvider,
 		IStructuredItemContentProvider,
