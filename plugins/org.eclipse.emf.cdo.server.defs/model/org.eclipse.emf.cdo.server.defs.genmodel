@@ -12,14 +12,15 @@
   <genPackages prefix="CDOServerDefs" basePackage="org.eclipse.emf.cdo.server" disposableProviderFactory="true"
       childCreationExtenders="true" ecorePackage="org.eclipse.emf.cdo.server.defs.ecore#/">
     <genClasses ecoreClass="org.eclipse.emf.cdo.server.defs.ecore#//CDOServerDef">
-      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference org.eclipse.emf.cdo.server.defs.ecore#//CDOServerDef/acceptors"/>
-      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference org.eclipse.emf.cdo.server.defs.ecore#//CDOServerDef/repositories"/>
+      <genFeatures property="None" children="true" createChild="true" propertyCategory=""
+          ecoreFeature="ecore:EReference org.eclipse.emf.cdo.server.defs.ecore#//CDOServerDef/acceptors"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference org.eclipse.emf.cdo.server.defs.ecore#//CDOServerDef/repositories"/>
     </genClasses>
     <genClasses ecoreClass="org.eclipse.emf.cdo.server.defs.ecore#//StoreDef"/>
     <genClasses ecoreClass="org.eclipse.emf.cdo.server.defs.ecore#//MemStoreDef"/>
     <genClasses ecoreClass="org.eclipse.emf.cdo.server.defs.ecore#//RepositoryDef">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute org.eclipse.emf.cdo.server.defs.ecore#//RepositoryDef/name"/>
-      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference org.eclipse.emf.cdo.server.defs.ecore#//RepositoryDef/store"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference org.eclipse.emf.cdo.server.defs.ecore#//RepositoryDef/store"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute org.eclipse.emf.cdo.server.defs.ecore#//RepositoryDef/overrideUUID"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute org.eclipse.emf.cdo.server.defs.ecore#//RepositoryDef/supportingAudits"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute org.eclipse.emf.cdo.server.defs.ecore#//RepositoryDef/supportingBranches"/>
@@ -28,7 +29,7 @@
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute org.eclipse.emf.cdo.server.defs.ecore#//RepositoryDef/allowInterruptRunningQueries"/>
     </genClasses>
     <genClasses ecoreClass="org.eclipse.emf.cdo.server.defs.ecore#//SynchronizableRepositoryDef">
-      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference org.eclipse.emf.cdo.server.defs.ecore#//SynchronizableRepositoryDef/synchronizer"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference org.eclipse.emf.cdo.server.defs.ecore#//SynchronizableRepositoryDef/synchronizer"/>
     </genClasses>
     <genClasses ecoreClass="org.eclipse.emf.cdo.server.defs.ecore#//RepositorySynchronizerDef"/>
     <genClasses ecoreClass="org.eclipse.emf.cdo.server.defs.ecore#//OfflineCloneDef"/>

@@ -376,7 +376,7 @@ public class CDOServerDbDefsItemProviderAdapterFactory extends
 		 * @generated
 		 */
 		public ResourceLocator getResourceLocator() {
-			return CDOServerDbEditDefsPlugin.INSTANCE;
+			return CDOServerDbDefsEditPlugin.INSTANCE;
 		}
 	}
 

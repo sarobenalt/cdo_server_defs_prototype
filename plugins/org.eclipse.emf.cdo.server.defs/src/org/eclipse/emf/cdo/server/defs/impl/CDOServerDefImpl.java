@@ -17,10 +17,14 @@ import org.eclipse.emf.cdo.server.defs.CDOServerDef;
 import org.eclipse.emf.cdo.server.defs.CDOServerDefsPackage;
 import org.eclipse.emf.cdo.server.defs.RepositoryDef;
 
+import org.eclipse.emf.common.notify.NotificationChain;
 import org.eclipse.emf.common.util.EList;
 
 import org.eclipse.emf.ecore.EClass;
 
+import org.eclipse.emf.ecore.InternalEObject;
+import org.eclipse.emf.ecore.util.EObjectContainmentEList;
+import org.eclipse.emf.ecore.util.InternalEList;
 import org.eclipse.emf.ecore.util.EObjectResolvingEList;
 
 import org.eclipse.net4j.defs.AcceptorDef;
@@ -43,7 +47,7 @@ import org.eclipse.net4j.util.defs.impl.DefImpl;
  */
 public class CDOServerDefImpl extends DefImpl implements CDOServerDef {
 	/**
-	 * The cached value of the '{@link #getAcceptors() <em>Acceptors</em>}' reference list.
+	 * The cached value of the '{@link #getAcceptors() <em>Acceptors</em>}' containment reference list.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @see #getAcceptors()
@@ -53,7 +57,7 @@ public class CDOServerDefImpl extends DefImpl implements CDOServerDef {
 	protected EList<AcceptorDef> acceptors;
 
 	/**
-	 * The cached value of the '{@link #getRepositories() <em>Repositories</em>}' reference list.
+	 * The cached value of the '{@link #getRepositories() <em>Repositories</em>}' containment reference list.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @see #getRepositories()
@@ -88,7 +92,7 @@ public class CDOServerDefImpl extends DefImpl implements CDOServerDef {
 	 */
 	public EList<AcceptorDef> getAcceptors() {
 		if (acceptors == null) {
-			acceptors = new EObjectResolvingEList<AcceptorDef>(
+			acceptors = new EObjectContainmentEList<AcceptorDef>(
 					AcceptorDef.class, this,
 					CDOServerDefsPackage.CDO_SERVER_DEF__ACCEPTORS);
 		}
@@ -102,11 +106,30 @@ public class CDOServerDefImpl extends DefImpl implements CDOServerDef {
 	 */
 	public EList<RepositoryDef> getRepositories() {
 		if (repositories == null) {
-			repositories = new EObjectResolvingEList<RepositoryDef>(
+			repositories = new EObjectContainmentEList<RepositoryDef>(
 					RepositoryDef.class, this,
 					CDOServerDefsPackage.CDO_SERVER_DEF__REPOSITORIES);
 		}
 		return repositories;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public NotificationChain eInverseRemove(InternalEObject otherEnd,
+			int featureID, NotificationChain msgs) {
+		switch (featureID) {
+		case CDOServerDefsPackage.CDO_SERVER_DEF__ACCEPTORS:
+			return ((InternalEList<?>) getAcceptors()).basicRemove(otherEnd,
+					msgs);
+		case CDOServerDefsPackage.CDO_SERVER_DEF__REPOSITORIES:
+			return ((InternalEList<?>) getRepositories()).basicRemove(otherEnd,
+					msgs);
+		}
+		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
 
 	/**

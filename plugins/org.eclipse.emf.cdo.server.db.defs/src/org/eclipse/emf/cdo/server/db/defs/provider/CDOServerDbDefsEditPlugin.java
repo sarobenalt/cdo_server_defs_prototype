@@ -27,14 +27,14 @@ import org.eclipse.net4j.util.defs.provider.Net4jUtilDefsEditPlugin;
  * <!-- end-user-doc -->
  * @generated
  */
-public final class CDOServerDbEditDefsPlugin extends EMFPlugin {
+public final class CDOServerDbDefsEditPlugin extends EMFPlugin {
 	/**
 	 * Keep track of the singleton.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public static final CDOServerDbEditDefsPlugin INSTANCE = new CDOServerDbEditDefsPlugin();
+	public static final CDOServerDbDefsEditPlugin INSTANCE = new CDOServerDbDefsEditPlugin();
 
 	/**
 	 * Keep track of the singleton.
@@ -50,7 +50,7 @@ public final class CDOServerDbEditDefsPlugin extends EMFPlugin {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public CDOServerDbEditDefsPlugin() {
+	public CDOServerDbDefsEditPlugin() {
 		super(new ResourceLocator[] { CDOServerDefsEditPlugin.INSTANCE,
 				Net4jDbEditPlugin.INSTANCE, Net4jUtilDefsEditPlugin.INSTANCE,
 				Net4jDefsEditPlugin.INSTANCE, });

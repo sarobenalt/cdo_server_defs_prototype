@@ -320,11 +320,13 @@ public class DBStoreDefImpl extends StoreDefImpl implements DBStoreDef {
 	@Override
 	protected Object createInstance() {
 		DBStore store = new DBStore();
-		
-		store.setMappingStrategy((IMappingStrategy)mappingStrategy.getInstance());
-		store.setDBAdapter((IDBAdapter)dbAdapter.getInstance());
-		store.setDbConnectionProvider((IDBConnectionProvider)dbConnectionProvider.getInstance());
-		
+
+		store.setMappingStrategy((IMappingStrategy) mappingStrategy
+				.getInstance());
+		store.setDBAdapter((IDBAdapter) dbAdapter.getInstance());
+		store.setDbConnectionProvider((IDBConnectionProvider) dbConnectionProvider
+				.getInstance());
+
 		return store;
 	}
 
@@ -334,9 +336,11 @@ public class DBStoreDefImpl extends StoreDefImpl implements DBStoreDef {
 	@Override
 	protected void validateDefinition() {
 		super.validateDefinition();
-	    CheckUtil.checkState(getMappingStrategy() != null, "mapping strategy not set!");
-	    CheckUtil.checkState(getDbAdapter() != null, "db adapter not set!");
-	    CheckUtil.checkState(getDbConnectionProvider() != null, "db connection provider not set!");
+		CheckUtil.checkState(getMappingStrategy() != null,
+				"mapping strategy not set!");
+		CheckUtil.checkState(getDbAdapter() != null, "db adapter not set!");
+		CheckUtil.checkState(getDbConnectionProvider() != null,
+				"db connection provider not set!");
 	}
 
 } //DBStoreDefImpl

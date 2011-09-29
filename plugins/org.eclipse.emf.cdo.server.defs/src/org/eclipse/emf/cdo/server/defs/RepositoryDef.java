@@ -64,26 +64,26 @@ public interface RepositoryDef extends Def {
 	void setName(String value);
 
 	/**
-	 * Returns the value of the '<em><b>Store</b></em>' reference.
+	 * Returns the value of the '<em><b>Store</b></em>' containment reference.
 	 * <!-- begin-user-doc -->
 	 * <p>
 	 * If the meaning of the '<em>Store</em>' reference isn't clear,
 	 * there really should be more of a description here...
 	 * </p>
 	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Store</em>' reference.
+	 * @return the value of the '<em>Store</em>' containment reference.
 	 * @see #setStore(StoreDef)
 	 * @see org.eclipse.emf.cdo.server.defs.CDOServerDefsPackage#getRepositoryDef_Store()
-	 * @model required="true"
+	 * @model containment="true" required="true"
 	 * @generated
 	 */
 	StoreDef getStore();
 
 	/**
-	 * Sets the value of the '{@link org.eclipse.emf.cdo.server.defs.RepositoryDef#getStore <em>Store</em>}' reference.
+	 * Sets the value of the '{@link org.eclipse.emf.cdo.server.defs.RepositoryDef#getStore <em>Store</em>}' containment reference.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Store</em>' reference.
+	 * @param value the new value of the '<em>Store</em>' containment reference.
 	 * @see #getStore()
 	 * @generated
 	 */

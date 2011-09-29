@@ -36,7 +36,7 @@ import org.eclipse.net4j.util.defs.Def;
  */
 public interface CDOServerDef extends Def {
 	/**
-	 * Returns the value of the '<em><b>Acceptors</b></em>' reference list.
+	 * Returns the value of the '<em><b>Acceptors</b></em>' containment reference list.
 	 * The list contents are of type {@link org.eclipse.net4j.defs.AcceptorDef}.
 	 * <!-- begin-user-doc -->
 	 * <p>
@@ -44,15 +44,15 @@ public interface CDOServerDef extends Def {
 	 * there really should be more of a description here...
 	 * </p>
 	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Acceptors</em>' reference list.
+	 * @return the value of the '<em>Acceptors</em>' containment reference list.
 	 * @see org.eclipse.emf.cdo.server.defs.CDOServerDefsPackage#getCDOServerDef_Acceptors()
-	 * @model
+	 * @model containment="true"
 	 * @generated
 	 */
 	EList<AcceptorDef> getAcceptors();
 
 	/**
-	 * Returns the value of the '<em><b>Repositories</b></em>' reference list.
+	 * Returns the value of the '<em><b>Repositories</b></em>' containment reference list.
 	 * The list contents are of type {@link org.eclipse.emf.cdo.server.defs.RepositoryDef}.
 	 * <!-- begin-user-doc -->
 	 * <p>
@@ -60,9 +60,9 @@ public interface CDOServerDef extends Def {
 	 * there really should be more of a description here...
 	 * </p>
 	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Repositories</em>' reference list.
+	 * @return the value of the '<em>Repositories</em>' containment reference list.
 	 * @see org.eclipse.emf.cdo.server.defs.CDOServerDefsPackage#getCDOServerDef_Repositories()
-	 * @model
+	 * @model containment="true"
 	 * @generated
 	 */
 	EList<RepositoryDef> getRepositories();

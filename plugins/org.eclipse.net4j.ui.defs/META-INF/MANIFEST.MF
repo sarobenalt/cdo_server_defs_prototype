@@ -15,4 +15,4 @@ Export-Package: org.eclipse.net4j.ui.defs;version="4.0.100",
  org.eclipse.net4j.ui.defs.impl;version="4.0.100",
  org.eclipse.net4j.ui.defs.provider,
  org.eclipse.net4j.ui.defs.util;version="4.0.100"
-Bundle-Activator: org.eclipse.net4j.defs.provider.Net4jDefsEditPlugin$Implementation
+Bundle-Activator: org.eclipse.net4j.ui.defs.provider.Net4jUIDefsEditPlugin$Implementation

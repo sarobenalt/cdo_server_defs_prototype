@@ -277,7 +277,7 @@ public class MappingStrategyDefItemProvider extends DefItemProvider implements
 	 */
 	@Override
 	public ResourceLocator getResourceLocator() {
-		return CDOServerDbEditDefsPlugin.INSTANCE;
+		return CDOServerDbDefsEditPlugin.INSTANCE;
 	}
 
 }

@@ -4,7 +4,7 @@
     xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" copyrightText=" * Copyright (c) 2004 - 2011 Eike Stepper (Berlin, Germany) and others.&#xD;&#xA; * All rights reserved. This program and the accompanying materials&#xD;&#xA; * are made available under the terms of the Eclipse Public License v1.0&#xD;&#xA; * which accompanies this distribution, and is available at&#xD;&#xA; * http://www.eclipse.org/legal/epl-v10.html&#xD;&#xA; * &#xD;&#xA; * Contributors:&#xD;&#xA; *    Andre Dietisheim - initial API and implementation&#xD;&#xA; *    Steve Robenalt - extended initial implementation for server side configuration."
     modelDirectory="/org.eclipse.emf.cdo.server.db.defs/src" editDirectory="/org.eclipse.emf.cdo.server.db.defs/src"
     editorDirectory="" modelPluginID="org.eclipse.emf.cdo.server.db.defs" modelName="Org.eclipse.emf.cdo.server.db"
-    editPluginClass="org.eclipse.emf.cdo.server.db.defs.provider.CDOServerDbEditDefsPlugin"
+    editPluginClass="org.eclipse.emf.cdo.server.db.defs.provider.CDOServerDbDefsEditPlugin"
     codeFormatting="true" importerID="org.eclipse.emf.importer.ecore" complianceLevel="5.0"
     copyrightFields="false" editPluginID="org.eclipse.emf.cdo.server.db.defs" usedGenPackages="../../org.eclipse.emf.cdo.server.defs/model/org.eclipse.emf.cdo.server.defs.genmodel#//defs ../../org.eclipse.net4j.db.defs/model/org.eclipse.net4j.db.defs.genmodel#//defs ../../org.eclipse.net4j.util.defs/model/org.eclipse.net4j.util.defs.genmodel#//defs ../../org.eclipse.net4j.defs/model/org.eclipse.net4j.defs.genmodel#//defs">
   <foreignModel>org.eclipse.emf.cdo.server.db.defs.ecore</foreignModel>

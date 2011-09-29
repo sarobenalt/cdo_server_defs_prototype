@@ -183,7 +183,7 @@ public class DBStoreDefItemProvider extends StoreDefItemProvider implements
 	 */
 	@Override
 	public ResourceLocator getResourceLocator() {
-		return CDOServerDbEditDefsPlugin.INSTANCE;
+		return CDOServerDbDefsEditPlugin.INSTANCE;
 	}
 
 }

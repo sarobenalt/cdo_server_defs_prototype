@@ -19,4 +19,4 @@ Require-Bundle: org.eclipse.core.runtime,
  org.eclipse.net4j.defs;visibility:=reexport,
  org.eclipse.emf.cdo.server.db;bundle-version="4.1.0"
 Bundle-ActivationPolicy: lazy
-Bundle-Activator: org.eclipse.emf.cdo.server.defs.provider.CDOServerDefsEditPlugin$Implementation
+Bundle-Activator: org.eclipse.emf.cdo.server.db.defs.provider.CDOServerDbDefsEditPlugin$Implementation

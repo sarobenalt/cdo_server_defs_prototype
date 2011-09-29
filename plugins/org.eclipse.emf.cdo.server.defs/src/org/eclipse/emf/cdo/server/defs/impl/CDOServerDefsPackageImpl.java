@@ -478,12 +478,12 @@ public class CDOServerDefsPackageImpl extends EPackageImpl implements
 		initEReference(getCDOServerDef_Acceptors(),
 				theNet4jDefsPackage.getAcceptorDef(), null, "acceptors", null,
 				0, -1, CDOServerDef.class, !IS_TRANSIENT, !IS_VOLATILE,
-				IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES,
+				IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES,
 				!IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEReference(getCDOServerDef_Repositories(), this.getRepositoryDef(),
 				null, "repositories", null, 0, -1, CDOServerDef.class,
-				!IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE,
-				IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED,
+				!IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE,
+				!IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED,
 				IS_ORDERED);
 
 		initEClass(storeDefEClass, StoreDef.class, "StoreDef", !IS_ABSTRACT,
@@ -500,7 +500,7 @@ public class CDOServerDefsPackageImpl extends EPackageImpl implements
 				!IS_DERIVED, IS_ORDERED);
 		initEReference(getRepositoryDef_Store(), this.getStoreDef(), null,
 				"store", null, 1, 1, RepositoryDef.class, !IS_TRANSIENT,
-				!IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES,
+				!IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES,
 				!IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getRepositoryDef_OverrideUUID(),
 				ecorePackage.getEString(), "overrideUUID", null, 0, 1,

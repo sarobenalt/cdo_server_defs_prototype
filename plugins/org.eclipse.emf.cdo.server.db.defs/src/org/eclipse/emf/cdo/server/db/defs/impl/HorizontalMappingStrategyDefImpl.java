@@ -301,40 +301,35 @@ public class HorizontalMappingStrategyDefImpl extends MappingStrategyDefImpl
 	 * @ADDED
 	 */
 	@Override
-	protected Object createInstance() 
-	{
+	protected Object createInstance() {
 		IMappingStrategy strategy = null;
-		
-	    if (branching)
-	    {
-	      if (auditing)
-	      {
-	        if (withRanges)
-	        {
-	          strategy = new HorizontalBranchingMappingStrategyWithRanges();
-	        }
 
-	        strategy = new HorizontalBranchingMappingStrategy();
-	      }
+		if (branching) {
+			if (auditing) {
+				if (withRanges) {
+					strategy = new HorizontalBranchingMappingStrategyWithRanges();
+				}
 
-	      throw new IllegalArgumentException("Misconfiguration: Branching requires Auditing!");
-	    }
+				strategy = new HorizontalBranchingMappingStrategy();
+			}
 
-	    // If null, we're not branching
-	    if (strategy == null && auditing)
-	    {
-	      if (withRanges)
-	      {
-	        strategy = new HorizontalAuditMappingStrategyWithRanges();
-	      }
+			throw new IllegalArgumentException(
+					"Misconfiguration: Branching requires Auditing!");
+		}
 
-	      strategy = new HorizontalAuditMappingStrategy();
-	    }
+		// If null, we're not branching
+		if (strategy == null && auditing) {
+			if (withRanges) {
+				strategy = new HorizontalAuditMappingStrategyWithRanges();
+			}
 
-	    // If still null, we're not auditing either
-	    if (strategy == null)
-	    	strategy = new HorizontalNonAuditMappingStrategy();
-	    
+			strategy = new HorizontalAuditMappingStrategy();
+		}
+
+		// If still null, we're not auditing either
+		if (strategy == null)
+			strategy = new HorizontalNonAuditMappingStrategy();
+
 		return strategy;
 	}
 
@@ -344,7 +339,8 @@ public class HorizontalMappingStrategyDefImpl extends MappingStrategyDefImpl
 	@Override
 	protected void validateDefinition() {
 		super.validateDefinition();
-	    CheckUtil.checkState(!isBranching() || isBranching() && isAuditing(), "branching requires auditing!");
+		CheckUtil.checkState(!isBranching() || isBranching() && isAuditing(),
+				"branching requires auditing!");
 	}
 
 } //HorizontalMappingStrategyDefImpl

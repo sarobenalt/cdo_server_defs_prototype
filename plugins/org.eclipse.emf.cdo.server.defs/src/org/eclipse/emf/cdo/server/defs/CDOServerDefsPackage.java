@@ -78,7 +78,7 @@ public interface CDOServerDefsPackage extends EPackage {
 	int CDO_SERVER_DEF = 0;
 
 	/**
-	 * The feature id for the '<em><b>Acceptors</b></em>' reference list.
+	 * The feature id for the '<em><b>Acceptors</b></em>' containment reference list.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
@@ -87,7 +87,7 @@ public interface CDOServerDefsPackage extends EPackage {
 	int CDO_SERVER_DEF__ACCEPTORS = Net4jUtilDefsPackage.DEF_FEATURE_COUNT + 0;
 
 	/**
-	 * The feature id for the '<em><b>Repositories</b></em>' reference list.
+	 * The feature id for the '<em><b>Repositories</b></em>' containment reference list.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
@@ -162,7 +162,7 @@ public interface CDOServerDefsPackage extends EPackage {
 	int REPOSITORY_DEF__NAME = Net4jUtilDefsPackage.DEF_FEATURE_COUNT + 0;
 
 	/**
-	 * The feature id for the '<em><b>Store</b></em>' reference.
+	 * The feature id for the '<em><b>Store</b></em>' containment reference.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
@@ -253,7 +253,7 @@ public interface CDOServerDefsPackage extends EPackage {
 	int SYNCHRONIZABLE_REPOSITORY_DEF__NAME = REPOSITORY_DEF__NAME;
 
 	/**
-	 * The feature id for the '<em><b>Store</b></em>' reference.
+	 * The feature id for the '<em><b>Store</b></em>' containment reference.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
@@ -372,7 +372,7 @@ public interface CDOServerDefsPackage extends EPackage {
 	int OFFLINE_CLONE_DEF__NAME = SYNCHRONIZABLE_REPOSITORY_DEF__NAME;
 
 	/**
-	 * The feature id for the '<em><b>Store</b></em>' reference.
+	 * The feature id for the '<em><b>Store</b></em>' containment reference.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
@@ -472,7 +472,7 @@ public interface CDOServerDefsPackage extends EPackage {
 	int FAILOVER_PARTICIPANT_DEF__NAME = SYNCHRONIZABLE_REPOSITORY_DEF__NAME;
 
 	/**
-	 * The feature id for the '<em><b>Store</b></em>' reference.
+	 * The feature id for the '<em><b>Store</b></em>' containment reference.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
@@ -581,10 +581,10 @@ public interface CDOServerDefsPackage extends EPackage {
 	EClass getCDOServerDef();
 
 	/**
-	 * Returns the meta object for the reference list '{@link org.eclipse.emf.cdo.server.defs.CDOServerDef#getAcceptors <em>Acceptors</em>}'.
+	 * Returns the meta object for the containment reference list '{@link org.eclipse.emf.cdo.server.defs.CDOServerDef#getAcceptors <em>Acceptors</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference list '<em>Acceptors</em>'.
+	 * @return the meta object for the containment reference list '<em>Acceptors</em>'.
 	 * @see org.eclipse.emf.cdo.server.defs.CDOServerDef#getAcceptors()
 	 * @see #getCDOServerDef()
 	 * @generated
@@ -592,10 +592,10 @@ public interface CDOServerDefsPackage extends EPackage {
 	EReference getCDOServerDef_Acceptors();
 
 	/**
-	 * Returns the meta object for the reference list '{@link org.eclipse.emf.cdo.server.defs.CDOServerDef#getRepositories <em>Repositories</em>}'.
+	 * Returns the meta object for the containment reference list '{@link org.eclipse.emf.cdo.server.defs.CDOServerDef#getRepositories <em>Repositories</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference list '<em>Repositories</em>'.
+	 * @return the meta object for the containment reference list '<em>Repositories</em>'.
 	 * @see org.eclipse.emf.cdo.server.defs.CDOServerDef#getRepositories()
 	 * @see #getCDOServerDef()
 	 * @generated
@@ -644,10 +644,10 @@ public interface CDOServerDefsPackage extends EPackage {
 	EAttribute getRepositoryDef_Name();
 
 	/**
-	 * Returns the meta object for the reference '{@link org.eclipse.emf.cdo.server.defs.RepositoryDef#getStore <em>Store</em>}'.
+	 * Returns the meta object for the containment reference '{@link org.eclipse.emf.cdo.server.defs.RepositoryDef#getStore <em>Store</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference '<em>Store</em>'.
+	 * @return the meta object for the containment reference '<em>Store</em>'.
 	 * @see org.eclipse.emf.cdo.server.defs.RepositoryDef#getStore()
 	 * @see #getRepositoryDef()
 	 * @generated
@@ -826,7 +826,7 @@ public interface CDOServerDefsPackage extends EPackage {
 		EClass CDO_SERVER_DEF = eINSTANCE.getCDOServerDef();
 
 		/**
-		 * The meta object literal for the '<em><b>Acceptors</b></em>' reference list feature.
+		 * The meta object literal for the '<em><b>Acceptors</b></em>' containment reference list feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
 		 * @generated
@@ -835,7 +835,7 @@ public interface CDOServerDefsPackage extends EPackage {
 				.getCDOServerDef_Acceptors();
 
 		/**
-		 * The meta object literal for the '<em><b>Repositories</b></em>' reference list feature.
+		 * The meta object literal for the '<em><b>Repositories</b></em>' containment reference list feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
 		 * @generated
@@ -882,7 +882,7 @@ public interface CDOServerDefsPackage extends EPackage {
 		EAttribute REPOSITORY_DEF__NAME = eINSTANCE.getRepositoryDef_Name();
 
 		/**
-		 * The meta object literal for the '<em><b>Store</b></em>' reference feature.
+		 * The meta object literal for the '<em><b>Store</b></em>' containment reference feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
 		 * @generated

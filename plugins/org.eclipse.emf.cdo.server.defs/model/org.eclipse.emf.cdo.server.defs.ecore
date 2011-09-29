@@ -5,15 +5,17 @@
     nsURI="http://www.eclipse.org/emf/CDO/server/defs/1.0.0" nsPrefix="cdo.server.defs">
   <eClassifiers xsi:type="ecore:EClass" name="CDOServerDef" eSuperTypes="../../org.eclipse.net4j.util.defs/model/org.eclipse.net4j.util.defs.ecore#//Def">
     <eStructuralFeatures xsi:type="ecore:EReference" name="acceptors" upperBound="-1"
-        eType="ecore:EClass ../../org.eclipse.net4j.defs/model/org.eclipse.net4j.defs.ecore#//AcceptorDef"/>
+        eType="ecore:EClass ../../org.eclipse.net4j.defs/model/org.eclipse.net4j.defs.ecore#//AcceptorDef"
+        containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="repositories" upperBound="-1"
-        eType="#//RepositoryDef"/>
+        eType="#//RepositoryDef" containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="StoreDef" eSuperTypes="../../org.eclipse.net4j.util.defs/model/org.eclipse.net4j.util.defs.ecore#//Def"/>
   <eClassifiers xsi:type="ecore:EClass" name="MemStoreDef" eSuperTypes="#//StoreDef"/>
   <eClassifiers xsi:type="ecore:EClass" name="RepositoryDef" eSuperTypes="../../org.eclipse.net4j.util.defs/model/org.eclipse.net4j.util.defs.ecore#//Def">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="store" lowerBound="1" eType="#//StoreDef"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="store" lowerBound="1" eType="#//StoreDef"
+        containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="overrideUUID" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="supportingAudits" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="supportingBranches" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>

@@ -27,6 +27,12 @@
                org.eclipse.emf.edit.provider.IItemPropertySource"/>
    </extension>
 
+   <extension point="org.eclipse.emf.edit.childCreationExtenders">
+      <extender
+            uri="http://www.eclipse.org/NET4J/util/defs/1.0.0"
+            class="org.eclipse.emf.cdo.server.net4j.defs.provider.CDOServerNet4jDefsItemProviderAdapterFactory$Net4jUtilDefsChildCreationExtender"/>
+   </extension>
+
    <extension point="org.eclipse.emf.ecore.generated_package">
       <package
             uri="http://www.eclipse.org/emf/CDO/server/net4j/defs/1.0.0"
@@ -34,10 +40,4 @@
             genModel="model/org.eclipse.emf.cdo.server.net4j.defs.genmodel"/>
    </extension>
 
-   <extension
-         point="org.eclipse.emf.edit.childCreationExtenders">
-      <extender
-            class="org.eclipse.emf.cdo.server.net4j.defs.provider.CDOServerNet4jDefsItemProviderAdapterFactory$Net4jUtilDefsChildCreationExtender"
-            uri="http://www.eclipse.org/NET4J/util/defs/1.0.0"/>
-   </extension>
 </plugin>

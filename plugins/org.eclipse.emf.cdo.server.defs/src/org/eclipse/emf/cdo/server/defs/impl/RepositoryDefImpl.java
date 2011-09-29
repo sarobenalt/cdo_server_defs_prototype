@@ -17,6 +17,7 @@ import org.eclipse.emf.cdo.server.defs.StoreDef;
 
 import org.eclipse.emf.common.notify.Notification;
 
+import org.eclipse.emf.common.notify.NotificationChain;
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.InternalEObject;
 
@@ -66,7 +67,7 @@ public class RepositoryDefImpl extends DefImpl implements RepositoryDef {
 	protected String name = NAME_EDEFAULT;
 
 	/**
-	 * The cached value of the '{@link #getStore() <em>Store</em>}' reference.
+	 * The cached value of the '{@link #getStore() <em>Store</em>}' containment reference.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @see #getStore()
@@ -242,16 +243,6 @@ public class RepositoryDefImpl extends DefImpl implements RepositoryDef {
 	 * @generated
 	 */
 	public StoreDef getStore() {
-		if (store != null && store.eIsProxy()) {
-			InternalEObject oldStore = (InternalEObject) store;
-			store = (StoreDef) eResolveProxy(oldStore);
-			if (store != oldStore) {
-				if (eNotificationRequired())
-					eNotify(new ENotificationImpl(this, Notification.RESOLVE,
-							CDOServerDefsPackage.REPOSITORY_DEF__STORE,
-							oldStore, store));
-			}
-		}
 		return store;
 	}
 
@@ -260,8 +251,21 @@ public class RepositoryDefImpl extends DefImpl implements RepositoryDef {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public StoreDef basicGetStore() {
-		return store;
+	public NotificationChain basicSetStore(StoreDef newStore,
+			NotificationChain msgs) {
+		StoreDef oldStore = store;
+		store = newStore;
+		if (eNotificationRequired()) {
+			ENotificationImpl notification = new ENotificationImpl(this,
+					Notification.SET,
+					CDOServerDefsPackage.REPOSITORY_DEF__STORE, oldStore,
+					newStore);
+			if (msgs == null)
+				msgs = notification;
+			else
+				msgs.add(notification);
+		}
+		return msgs;
 	}
 
 	/**
@@ -270,11 +274,25 @@ public class RepositoryDefImpl extends DefImpl implements RepositoryDef {
 	 * @generated
 	 */
 	public void setStore(StoreDef newStore) {
-		StoreDef oldStore = store;
-		store = newStore;
-		if (eNotificationRequired())
+		if (newStore != store) {
+			NotificationChain msgs = null;
+			if (store != null)
+				msgs = ((InternalEObject) store).eInverseRemove(this,
+						EOPPOSITE_FEATURE_BASE
+								- CDOServerDefsPackage.REPOSITORY_DEF__STORE,
+						null, msgs);
+			if (newStore != null)
+				msgs = ((InternalEObject) newStore).eInverseAdd(this,
+						EOPPOSITE_FEATURE_BASE
+								- CDOServerDefsPackage.REPOSITORY_DEF__STORE,
+						null, msgs);
+			msgs = basicSetStore(newStore, msgs);
+			if (msgs != null)
+				msgs.dispatch();
+		} else if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET,
-					CDOServerDefsPackage.REPOSITORY_DEF__STORE, oldStore, store));
+					CDOServerDefsPackage.REPOSITORY_DEF__STORE, newStore,
+					newStore));
 	}
 
 	/**
@@ -428,14 +446,27 @@ public class RepositoryDefImpl extends DefImpl implements RepositoryDef {
 	 * @generated
 	 */
 	@Override
+	public NotificationChain eInverseRemove(InternalEObject otherEnd,
+			int featureID, NotificationChain msgs) {
+		switch (featureID) {
+		case CDOServerDefsPackage.REPOSITORY_DEF__STORE:
+			return basicSetStore(null, msgs);
+		}
+		return super.eInverseRemove(otherEnd, featureID, msgs);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
 	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
 		case CDOServerDefsPackage.REPOSITORY_DEF__NAME:
 			return getName();
 		case CDOServerDefsPackage.REPOSITORY_DEF__STORE:
-			if (resolve)
-				return getStore();
-			return basicGetStore();
+			return getStore();
 		case CDOServerDefsPackage.REPOSITORY_DEF__OVERRIDE_UUID:
 			return getOverrideUUID();
 		case CDOServerDefsPackage.REPOSITORY_DEF__SUPPORTING_AUDITS:
