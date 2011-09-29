@@ -31,4 +31,11 @@
                org.eclipse.emf.edit.provider.IItemLabelProvider
                org.eclipse.emf.edit.provider.IItemPropertySource"/>
    </extension>
+   
+   <extension
+         point="org.eclipse.emf.edit.childCreationExtenders">
+      <extender
+            class="org.eclipse.emf.cdo.ui.defs.provider.CDOUIDefsItemProviderAdapterFactory$Net4jUtilDefsChildCreationExtender"
+            uri="http://www.eclipse.org/NET4J/util/defs/1.0.0"/>
+   </extension>
 </plugin>

@@ -34,4 +34,10 @@
             genModel="model/org.eclipse.emf.cdo.server.net4j.defs.genmodel"/>
    </extension>
 
+   <extension
+         point="org.eclipse.emf.edit.childCreationExtenders">
+      <extender
+            class="org.eclipse.emf.cdo.server.net4j.defs.provider.CDOServerNet4jDefsItemProviderAdapterFactory$Net4jUtilDefsChildCreationExtender"
+            uri="http://www.eclipse.org/NET4J/util/defs/1.0.0"/>
+   </extension>
 </plugin>

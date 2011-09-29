@@ -38,6 +38,6 @@
          point="org.eclipse.emf.edit.childCreationExtenders">
       <extender
             class="org.eclipse.emf.cdo.server.db.defs.provider.CDOServerDbDefsItemProviderAdapterFactory$Net4jUtilDefsChildCreationExtender"
-            uri="http://www.eclipse.org/emf/CDO/server/db/defs/1.0.0"/>
+            uri="http://www.eclipse.org/NET4J/util/defs/1.0.0"/>
    </extension>
 </plugin>
