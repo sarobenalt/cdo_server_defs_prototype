@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+  * Copyright (c) 2004 - 2011 Eike Stepper (Berlin, Germany) and others.
+  * All rights reserved. This program and the accompanying materials
+  * are made available under the terms of the Eclipse Public License v1.0
+  * which accompanies this distribution, and is available at
+  * http://www.eclipse.org/legal/epl-v10.html
+  * 
+  * Contributors:
+  *    Andre Dietisheim - initial API and implementation
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="org.eclipse.net4j.util.defs.presentation.Net4jUtilDefsModelWizardID"
+            name="%_UI_Net4jUtilDefsModelWizard_label"
+            class="org.eclipse.net4j.util.defs.presentation.Net4jUtilDefsModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/Net4jUtilDefsModelFile.gif">
+         <description>%_UI_Net4jUtilDefsModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <editor
+            id="org.eclipse.net4j.util.defs.presentation.Net4jUtilDefsEditorID"
+            name="%_UI_Net4jUtilDefsEditor_label"
+            icon="icons/full/obj16/Net4jUtilDefsModelFile.gif"
+            extensions="net4jutildefs"
+            class="org.eclipse.net4j.util.defs.presentation.Net4jUtilDefsEditor"
+            contributorClass="org.eclipse.net4j.util.defs.presentation.Net4jUtilDefsActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>
